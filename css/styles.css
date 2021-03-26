@@ -1,0 +1,114 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  text-align: center;
+     }
+
+.skillletter {
+  font-size:50px;
+  position:relative;
+  top:150px;
+             }
+
+.skills {
+  bottom: 140px;
+  position: relative;
+  right: 100px;
+       }
+
+.secondskill {
+  bottom: 140px;
+  left: 80px;
+  position: relative;
+  width: 300px;
+}
+
+h1   {
+  color: #66BFBF;
+  font-family: "Sacramento", cursive;
+  font-size: 60px; /* 16px=100%=1em (lembrar sempre dessa conversão)*/
+  margin-top: 0;
+     }
+h2 {
+  color:#11999E;
+   }
+
+.introduction {
+  font-family: arial;
+              }
+
+h4 {
+  font-family:serif;
+}
+
+hr {
+  border-color:grey;
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  width: 5%;
+   }
+
+
+/*alterar fonte somente do primeiro paragrafo abaixo do h1, chamando pela CLASS*/
+.paragraph {
+  color: #66BFBF;
+  font-family: "Sacramento", cursive;
+  font-size: 40px;
+           }
+.photo {
+  /*utilizar elemento seguinte para tornar foto circular*/
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+       }
+
+.computer {
+  border-radius: 25%;
+  height: 300px;
+  width: 300px;
+          }
+
+.robot {
+  height: 350px;
+  width: 350px;
+       }
+
+.bass {
+  height: 450px;
+  width: 450px;
+      }
+
+p {
+  font-size: 25px;
+  }
+
+.top-container {
+  background-color: #E4F9F5;
+  max-width: 100%;
+  padding-top: 100px;
+  position: relative;
+               }
+
+.middle-container {
+  background-color:  #E4F9F5;
+  max-width: 100%;
+                  }
+
+.top-cloud {
+  left:200px;
+  position:relative;
+           }
+
+.bottom-cloud {
+  position: absolute;
+              }
+.message {
+  height: 100px;
+  width: 100px;
+         }
+
+.cloudmsg {
+  height:30px;
+  width:30px;
+}
